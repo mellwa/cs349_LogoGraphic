@@ -1,0 +1,80 @@
+Marking: Fri Mar 14 00:43:07 2014
+
+Marking record for: Button tests
+2/2 -- button not responsive when not visible
+2/2 -- button not responsive when parent not visible
+0/2 -- button responsive when it and parent are visible
+0/2 -- button responds when mouse down/up within its bounds
+2/2 -- button doesn't respond when mouse up outside its bounds
+2/2 -- button doesn't respond when it is clipped by parent
+2/2 -- buttons visible
+10/14 -- total for: Button tests
+
+Marking record for: Slider tests
+2/2 -- slider minimum correctly set
+2/2 -- slider maximum correctly set
+0/2 -- slider current value correctly set
+0/2 -- slider clamps to minimum value
+2/2 -- slider clamps to maximum value
+2/2 -- slider doesn't respond when not visible
+2/2 -- slider responds when visible
+2/2 -- correct slider responds to event
+0/2 -- slider set to approximately correct value on click
+0/2 -- slider set to minimum when click on left side
+0/2 -- slider set to maximum when click on right side
+0/2 -- slider set to value > min, < mid point when clicked at 1/4
+2/2 -- slider set to value < max, > mid point when clicked at 3/4
+2/2 -- two sliders visible
+16/28 -- total for: Slider tests
+
+Marking record for: Main panel interactor tree verification
+4/4 -- total for: Main panel interactor tree verification
+
+Marking record for: Turtle graphics panel interactor tree verification
+1/2 -- total for: Turtle graphics panel interactor tree verification
+
+Marking record for: Playback panel interactor tree verification
+1/2 -- total for: Playback panel interactor tree verification
+
+Marking record for: Step panel interactor tree verification
+1/2 -- total for: Step panel interactor tree verification
+
+Marking record for: Button panel interactor tree verification
+5/5 -- total for: Button panel interactor tree verification
+
+Marking record for: Component exists validation
+1/1 -- component TURTLE_GRAPHICS_PANEL_ID exists
+1/1 -- component PLAYBACK_PANEL_ID exists
+1/1 -- component CURRENT_TURTLE_STEP_PANEL_ID exists
+1/1 -- component BUTTON_PANEL_ID exists
+0/1 -- component TURTLE_GRAPHICS_OUTPUT_LABEL_ID exists
+1/1 -- component TURTLE_GRAPHICS_WIDGET_ID exists
+0/1 -- component PLAYBACK_OUTPUT_LABEL_ID exists
+1/1 -- component PLAYBACK_SLIDER_ID exists
+0/1 -- component CURRENT_TURTLE_STEP_LABEL_ID exists
+1/1 -- component CURRENT_TURTLE_STEP_SLIDER_ID exists
+1/1 -- component GO_TO_START_BUTTON_ID exists
+1/1 -- component PREVIOUS_FRAME_BUTTON_ID exists
+1/1 -- component PLAY_BUTTON_ID exists
+1/1 -- component NEXT_FRAME_BUTTON_ID exists
+1/1 -- component GO_TO_END_BUTTON_ID exists
+12/15 -- total for: Component exists validation
+
+Marking record for: Application interaction tests
+2/2 -- turtle step slider minimum <= 1
+2/2 -- turtle step slider maximum ~= num steps
+0/2 -- turtle step slider forward one step
+2/2 -- turtle step slider backward one step
+0/2 -- turtle step slider to the end
+2/2 -- turtle step slider to the start
+0/2 -- turtle animation advanced
+2/2 -- turtle animation paused
+10/16 -- total for: Application interaction tests
+
+Marking record for: Clip tests
+1/1 -- components vertically lined up
+0/1 -- components vertically lined up
+0/2 -- components properly clipped
+1/4 -- total for: Clip tests
+
+61/92 ** total for all automated marks
